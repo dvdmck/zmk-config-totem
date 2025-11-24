@@ -25,5 +25,5 @@ include:
   - board: seeeduino_xiao_ble
     shield: totem_right
   - board: seeeduino_xiao_ble
-    shield: sweep_central_dongle dongle_display
+    shield: dongle_display
 # there is no settingsreset (needed) for the XIAO
