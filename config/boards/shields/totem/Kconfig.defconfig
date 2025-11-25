@@ -48,3 +48,5 @@ endchoice
 endif # LVGL
 
 endif # ZMK_DISPLAY
+
+endif # SHIELD_TOTEM_DONGLE
