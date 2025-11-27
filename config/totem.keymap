@@ -46,30 +46,30 @@
         base {
             display-name = "Base";
             bindings = <
-            &kp Q            &kp W               &kp F           &kp P             &kp B    &kp J      &kp L              &kp U                &kp Y                &kp ES_N_TILDE
-            &mt RIGHT_ALT A  &mt LEFT_CONTROL R  &mt LEFT_WIN S  &mt LEFT_SHIFT T  &kp G    &kp M      &mt RIGHT_SHIFT N  &mt RIGHT_COMMAND E  &mt RIGHT_CONTROL I  &mt RIGHT_ALT O
-&kp ESCAPE  &kp Z            &kp X               &kp C           &kp D             &kp V    &kp K      &kp H              &kp COMMA            &kp DOT              &kp ES_C_CEDILLA         &kp BACKSPACE
-                                                 &kp LGUI        &kp ES_ACUTE      &mo 1    &kp SPACE  &kp ES_GRAVE       &kp RIGHT_ALT
+            &kp Q            &kp W               &kp F           &kp P             &kp B        &kp J      &kp L              &kp U                &kp Y                &kp ES_N_TILDE
+            &mt RIGHT_ALT A  &mt LEFT_CONTROL R  &mt LEFT_WIN S  &mt LEFT_SHIFT T  &kp G        &kp M      &mt RIGHT_SHIFT N  &mt RIGHT_COMMAND E  &mt RIGHT_CONTROL I  &mt RIGHT_ALT O
+&kp ESCAPE  &kp Z            &kp X               &kp C           &kp D             &kp V        &kp K      &kp H              &kp COMMA            &kp DOT              &kp ES_C_CEDILLA         &kp BACKSPACE
+                                                 &kp ES_BSLH     &lt 2 ES_ACUTE    &lt 1 TAB    &kp SPACE  &lt 2 ES_GRAVE     &kp ES_COLON
             >;
         };
 
         nav_num {
-            display-name = "NumNav";
+            display-name = "NavNum";
             bindings = <
-                   &kp LA(BACKSPACE)   &kp BACKSPACE  &kp UP     &kp DELETE     &kp LA(DELETE)        &kp N5      &kp N6           &kp N7       &kp N8    &kp N9
-                   &kp LA(LEFT_ARROW)  &kp LEFT       &kp DOWN   &kp RIGHT      &kp LA(RIGHT)         &kp N0      &kp N1           &kp N2       &kp N3    &kp N4
-&kp LG(BACKSPACE)  &kp LG(UP_ARROW)    &kp LG(LEFT)   &kp ENTER  &kp LG(RIGHT)  &kp LG(DOWN_ARROW)    &kp PERIOD  &kp PLUS         &kp MINUS    &kp STAR  &kp FSLH  &kp CARET
-                                                      &trans     &trans         &trans                &kp EQUAL   &kp RIGHT_SHIFT  &kp PERCENT
+                   &kp LA(BACKSPACE)   &kp BACKSPACE  &kp UP     &kp DELETE     &kp LA(DELETE)      &kp FSLH   &kp N7              &kp N8               &kp N9               &kp PLUS
+                   &kp LA(LEFT_ARROW)  &kp LEFT       &kp DOWN   &kp RIGHT      &kp LA(RIGHT)       &kp STAR   &mt RIGHT_SHIFT N4  &mt RIGHT_COMMAND N5 &mt RIGHT_CONTROL N6 &mt RIGHT_ALT MINUS
+&kp LG(BACKSPACE)  &kp LG(UP_ARROW)    &kp LG(LEFT)   &kp ENTER  &kp LG(RIGHT)  &kp LG(DOWN_ARROW)  &kp EQUAL  &kp N1              &kp N2               &kp N3               &kp PERCENT         &kp BACKSPACE
+                                                      &trans     &trans         &trans              &kp SPACE  &kp N0              &kp PERIOD 
             >;
         };
 
-        sym_func {
-            display-name = "SymFunc";
+        symbol {
+            display-name = "Symbol";
             bindings = <
-           &kp ESC        &kp LEFT_BRACE        &kp RIGHT_BRACE        &none             &none             &kp F1   &kp F2           &kp F3   &kp F4   &kp F5
-           &kp TAB        &kp LBKT              &kp RBKT               &kp ENTER         &kp BSLH          &kp F6   &kp F7           &kp F8   &kp F9   &kp F10
-&kp GRAVE  &kp LESS_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp UNDERSCORE    &kp F11  &kp F12          &kp F13  &kp F14  &kp F15  &kp F16
-                                                &trans                 &trans            &trans            &none    &kp RIGHT_SHIFT  &none
+               &kp ES_ORDM   &kp ES_AT   &kp ES_HASH   &kp ES_LPAR   &kp ES_RPAR        &kp ES_LBKT   &kp ES_RBKT   &kp ES_DQT    &kp ES_STAR    &kp ES_CARET
+               &kp ES_UNDER  &kp ES_AMPS &kp ES_DOLLAR &kp ES_BSLH   &kp ES_FLSH        &kp ES_LBRC   &kp ES_RBRC   &kp ES_APOS   &kp ES_PLUS    &kp ES_MINUS
+&kp ES_MIDDOT  &kp ES_ORDF   &kp ES_LT   &kp ES_GT     &kp ES_IQMARK &kp ES_QMARK       &kp ES_IEXCL  &kp ES_EXCL   &kp ES_EQUAL  &kp ES_PERCENT &kp ES_PIPE  &kp ES_UMLAUT
+                                         &kp ES_NOT    &trans        &trans             &trans        &trans        &kb ES_TILDE
             >;
         };
 
