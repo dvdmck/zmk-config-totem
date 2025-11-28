@@ -69,7 +69,7 @@
                &kp ES_ORDM   &kp ES_AT   &kp ES_HASH   &kp ES_LPAR   &kp ES_RPAR        &kp ES_LBKT   &kp ES_RBKT   &kp ES_DQT    &kp ES_STAR    &kp ES_CARET
                &kp ES_UNDER  &kp ES_AMPS &kp ES_DOLLAR &kp ES_BSLH   &kp ES_FLSH        &kp ES_LBRC   &kp ES_RBRC   &kp ES_APOS   &kp ES_PLUS    &kp ES_MINUS
 &kp ES_MIDDOT  &kp ES_ORDF   &kp ES_LT   &kp ES_GT     &kp ES_IQMARK &kp ES_QMARK       &kp ES_IEXCL  &kp ES_EXCL   &kp ES_EQUAL  &kp ES_PERCENT &kp ES_PIPE  &kp ES_UMLAUT
-                                         &kp ES_NOT    &trans        &trans             &trans        &trans        &kb ES_TILDE
+                                         &kp ES_NOT    &trans        &trans             &trans        &trans        &kp ES_TILDE
             >;
         };
 
