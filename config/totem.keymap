@@ -34,8 +34,8 @@
             key-positions = <27 28 29>;
         };
 
-        DelCombo {
-            bindings = <&kp DEL>;
+        BackCombo {
+            bindings = <&kp BACKSPACE>;
             key-positions = <6 7 8>;
         };
     };
@@ -48,8 +48,8 @@
             bindings = <
             &kp Q            &kp W               &kp F           &kp P             &kp B        &kp J      &kp L              &kp U                &kp Y                &kp ES_N_TILDE
             &mt RIGHT_ALT A  &mt LEFT_CONTROL R  &mt LEFT_WIN S  &mt LEFT_SHIFT T  &kp G        &kp M      &mt RIGHT_SHIFT N  &mt RIGHT_COMMAND E  &mt RIGHT_CONTROL I  &mt RIGHT_ALT O
-&kp ESCAPE  &kp Z            &kp X               &kp C           &kp D             &kp V        &kp K      &kp H              &kp COMMA            &kp DOT              &kp ES_C_CEDILLA         &kp BACKSPACE
-                                                 &kp ES_BSLH     &lt 2 ES_ACUTE    &lt 1 TAB    &kp SPACE  &lt 2 ES_GRAVE     &kp ES_COLON
+&kp ESCAPE  &kp Z            &kp X               &kp C           &kp D             &kp V        &kp K      &kp H              &kp COMMA            &kp DOT              &kp ES_C_CEDILLA         &kp DELETE
+                                                 &kp RA(ES_ORDM) &lt 2 ES_ACUTE    &lt 1 TAB    &kp SPACE  &lt 2 ES_GRAVE     &kp ES_COLON
             >;
         };
 
@@ -66,9 +66,9 @@
         symbol {
             display-name = "Symbol";
             bindings = <
-               &kp ES_ORDM   &kp ES_AT   &kp ES_HASH   &kp ES_LPAR   &kp ES_RPAR        &kp ES_LBKT   &kp ES_RBKT   &kp ES_DQT    &kp ES_STAR    &kp ES_CARET
-               &kp ES_UNDER  &kp ES_AMPS &kp ES_DOLLAR &kp ES_BSLH   &kp ES_FSLH        &kp ES_LBRC   &kp ES_RBRC   &kp ES_APOS   &kp ES_PLUS    &kp ES_MINUS
-&kp ES_MIDDOT  &kp ES_ORDF   &kp ES_LT   &kp ES_GT     &kp ES_IQMARK &kp ES_QMARK       &kp ES_IEXCL  &kp ES_EXCL   &kp ES_EQUAL  &kp ES_PERCENT &kp ES_PIPE  &kp ES_UMLAUT
+               &kp ES_LT   &kp ES_AT   &kp ES_HASH   &kp ES_LPAR   &kp ES_RPAR        &kp ES_LBKT   &kp ES_RBKT   &kp ES_DQT    &kp ES_STAR    &kp ES_CARET
+               &kp ES_UNDER  &kp ES_AMPS &kp ES_DOLLAR &kp RA(ES_ORDM)   &kp ES_FSLH        &kp ES_LBRC   &kp ES_RBRC   &kp ES_APOS   &kp ES_PLUS    &kp ES_MINUS
+&kp ES_MIDDOT  &kp ES_GT   &kp ES_ORDM   &kp ES_ORDF    &kp ES_IQMARK &kp ES_QMARK       &kp ES_IEXCL  &kp ES_EXCL   &kp ES_EQUAL  &kp ES_PERCENT &kp ES_PIPE  &kp ES_UMLAUT
                                          &kp ES_NOT    &trans        &trans             &trans        &trans        &kp ES_TILDE             
             >;
         };
