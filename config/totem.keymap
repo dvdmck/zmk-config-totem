@@ -15,13 +15,20 @@
 #include <dt-bindings/zmk/keys.h>
 #include <locale/keys_es.h>
 
+&mt {
+  quick-tap-ms = <100>;
+  global-quick-tap;
+  flavor = "tap-preferred";
+  tapping-term-ms = <250>;
+};
+
 / {
     combos {
         compatible = "zmk,combos";
 
         Escape {
             bindings = <&kp ESC>;
-            key-positions = <1 2>;
+            key-positions = <1 2 3>;
         };
 
         TabCombo {
