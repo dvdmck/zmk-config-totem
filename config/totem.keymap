@@ -67,7 +67,7 @@
             display-name = "Symbol";
             bindings = <
                &kp ES_LT   &kp ES_AT   &kp ES_HASH   &kp ES_LPAR   &kp ES_RPAR        &kp ES_LBKT   &kp ES_RBKT   &kp ES_DQT    &kp ES_STAR    &kp ES_CARET
-               &kp ES_UNDER  &kp ES_AMPS &kp ES_DOLLAR &kp NON_US_BSLH   &kp ES_FSLH        &kp ES_LBRC   &kp ES_RBRC   &kp ES_APOS   &kp ES_PLUS    &kp ES_MINUS
+               &mt RIGHT_ALT ES_UNDER  &mt LEFT_CONTROL ES_AMPS &mt LEFT_WIN ES_DOLLAR &mt LEFT_SHIFT  RA(NON_US_BSLH)   &kp ES_FSLH        &kp ES_LBRC   &mt RIGHT_SHIFT ES_RBRC   &mt RIGHT_COMMAND ES_APOS   &mt RIGHT_CONTROL ES_PLUS    &mt RIGHT_ALT ES_MINUS
 &kp ES_MIDDOT  &kp ES_GT   &kp ES_ORDM   &kp ES_ORDF    &kp ES_IQMARK &kp ES_QMARK       &kp ES_IEXCL  &kp ES_EXCL   &kp ES_EQUAL  &kp ES_PERCENT &kp ES_PIPE  &kp ES_UMLAUT
                                          &kp ES_NOT    &trans        &trans             &trans        &trans        &kp ES_TILDE             
             >;
